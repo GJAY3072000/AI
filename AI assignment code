@@ -1,0 +1,37 @@
+#Only answer as 0 or 1
+l1=[]
+A=input("i am a human being: ")
+if A!='0' and A!='1':
+    print("wrong input")
+    exit()
+else:
+    l1.append(A)
+B=input("i am good: ")
+if B!='0' and B!='1':
+    print("wrong input")
+    exit()
+else:
+    l1.append(B)
+C=input("Good graders study well: ")
+if C!='0' and C!='1':
+    print("wrong input")
+    exit()
+else:
+    l1.append(C)
+D=input("Humans love graders: ")
+if D!='0' and D!='1':
+    print("wrong input")
+    exit()
+else:
+    l1.append(D)
+E=input("Every human does not study well: ")
+if E!='0' and E!='1':
+    print("wrong input")
+    exit()
+else:
+    l1.append(E)
+print(l1)
+if l1[0]=="0" and l1[1]=="0" and l1[2]=="0" and l1[3]=="0" and l1[4]=="1":
+    print("yes,every human is good grader")
+else:
+    print("No, every human is not a good grader")
